@@ -9,7 +9,7 @@ const Service = () => {
           <p className='font-poppins px-5 lg:flex hidden'>programs and initiatives aimed at addressing hunger, promoting nutrition, <br />and reducing food waste within our communities.</p>
         </div>
         <div className="service-card">
-          
+           
         </div>
 
         
