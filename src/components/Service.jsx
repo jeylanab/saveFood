@@ -14,7 +14,7 @@ const Service = () => {
             {services.map((service, index) => (
               <div className=' flex cardbg shadow-sm rounded-lg justify-center items-center mx-10 border' key={service.id}>
                 <div className='px-2'>
-                  <h1 className='font-poppins text-semibold'>{service.title}</h1> 
+                  <h1 className='font-poppins font-bold '>{service.title}</h1> 
                   <p className='py-2 text-sm'>{ service.description}</p>
                 </div>
                 <div>
