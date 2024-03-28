@@ -77,3 +77,13 @@
 .backg {
   background-color: orange;
 }
+.cardbg {
+  background-color: orange;
+
+}
+.cardbg:hover {
+  background-color: rgb(173, 113, 3);
+  transition: all 0.5s ease;
+  
+
+}

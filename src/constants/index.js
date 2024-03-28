@@ -1,9 +1,9 @@
-import family from '../assets/aafamily.png'
-import kitchen from '../assets/aakitchen.png'
-import restaurant from '../assets/aarestaurant.png'
-import school from '../assets/aaschool.png'
-import elders from '../assets/aelders.png'
-import home from '../assets/ahomeless.png'
+import family from '../assets/family.png'
+import kitchen from '../assets/kitchen.png'
+import restaurant from '../assets/rest.png'
+import school from '../assets/school.png'
+import elders from '../assets/elder.png'
+import home from '../assets/home.png'
 
 
 export const navLinks = [
@@ -53,7 +53,7 @@ export const navLinks = [
   {
     id: 5,
     title: "Food rescue from restaurants and supermarkets",
-    description: "Rescuing surplus food from restaurants, supermarkets, and other businesses to redistribute it to those in need, reducing food waste and addressing hunger.",
+    description: "Rescuing surplus food from restaurants, supermarkets, and other businesses to redistribute, reducing food waste and addressing hunger.",
     imageUrl: restaurant
   },
   {
