@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 
 const App = () => (
   <div>
-    <Navbar />
+    <Navbar className='  w-full overflow-hidden'/>
     <Hero/>
   </div>
 );
