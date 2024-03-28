@@ -34,12 +34,15 @@
   text-fill-color: transparent;
 }
 .btn {
-  background-color: rgb(52, 13, 13);
+  background-color: rgb(24, 24, 24);
   transition: all 0.5s ease;
 }
 .btn:hover {
 
-  background-color: rgb(147, 91, 6);
+  background-color: rgb(68, 68, 68);
+}
+.primeColor {
+  color: rgb(245, 171, 23);
 }
 .bg-blue-gradient {
   background: linear-gradient(
