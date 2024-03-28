@@ -1,9 +1,11 @@
 import React from "react";
 import Navbar from "./components/NavBar";
+import Hero from "./components/Hero";
 
 const App = () => (
-  <div className="bg-black">
-    <Navbar/>
+  <div>
+    <Navbar />
+    <Hero/>
   </div>
 );
 
