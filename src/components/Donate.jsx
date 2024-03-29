@@ -3,8 +3,8 @@ import React from 'react'
 const Donate = () => {
   return (
       <div>
-          <div className='donatebg p-10 flex items-center lg:flex-row flex-col  justify-center'>
-              <div className='border lg:w-[50%]'>
+          <div className='donatebg p-10 flex items-center lg:flex-row flex-col  justify-evenly'>
+              <div className='border lg:w-[50%] '>
                   <h1 className='lg:text-4xl font-bold font-poppins p-2  '> Support Our Cause By Donating Now! </h1>
                   <p className='font-poppins lg:text-lg text-sm p-2'>Help us make a difference by making a donation today. Every contribution, no matter how small, can have a big impact on those in need.</p>
 
