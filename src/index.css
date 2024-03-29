@@ -84,6 +84,9 @@
 .cardbg:hover {
   background-color: rgb(173, 113, 3);
   transition: all 0.5s ease;
-  
 
+}
+.donatebg{
+  background-color: rgb(23, 23, 23);
+  color: rgb(220, 220, 220);
 }
