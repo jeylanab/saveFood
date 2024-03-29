@@ -11,34 +11,42 @@ const Donate = () => {
               </div>
               <div>
                   <form action="form" className='flex justify-start items-start flex-col'>
+                      <label htmlFor="location">Location:</label>
                       <div className='location '>
-                           <label htmlFor="location">Location:</label>
+                           
                             <input type="text" className='lg:w-[100px] m-2 primeColor font-poppins text-center font-semibold' placeholder='Country' />
                             <input type="text" className='lg:w-[100px] m-2 primeColor font-poppins text-center font-semibold  ' placeholder='City' />
                             <input type="text" className='lg:w-[100px] m-2 primeColor font-poppins text-center font-semibold' placeholder='Street' />
                       </div>
+                      <label htmlFor="amount">Amount:</label>
                       <div>
-                           <label htmlFor="amount">Amount:</label>
-                           <input type="number" className='lg:w-[100px] m-2 primeColor' /><label htmlFor="type">Type:</label>
+                          
+                          <input type="number" className='lg:w-[100px] m-2 primeColor' />
+                         
+                      </div>
+                      <label htmlFor="type">Type:</label>
+                      <div>
+                          
                             <input type="type" className='lg:w-[100px] m-2 font-poppins text-center font-semibold' />
                       </div>
+                      
+                      <label htmlFor="name">Name</label>
                      
                       <div>
                             
-                          
+                         
+                          <input type="text" placeholder='your name'  className='lg:w-auto m-2 primeColor  font-poppins text-center font-semibold' />
                             
                       </div>
+                      <label htmlFor="email">Email:</label>
                      
-                      <div>
-                            <label htmlFor="name">Name</label>
-                            <input type="text" placeholder='your name'  className='lg:w-auto m-2 primeColor  font-poppins text-center font-semibold' />
-
-                            <label htmlFor="email">Email:</label>
+                      <div>   
+                            
                             <input type="text" placeholder='example@gmail.com'  className='lg:w-auto primeColor  m-2 primeColor font-poppins text-center font-semibold' />
                       </div>
                       
 
-                      <input type="submit" className='text-center primeColor' />
+                     <button type='submit btndonate'>Donate Now</button>
                  
                 </form>
                  
