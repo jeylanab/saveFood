@@ -1,7 +1,27 @@
 import React from 'react'
 import hero from '../assets/assets/hero.png'
+import hero2 from '../assets/hero2.png'
+import hero3 from '../assets/hero3.png'
+import hero4 from '../assets/hero4.png'
+import hero5 from '../assets/hero5.png'
+import hero6 from '../assets/hero6.png'
 
 const Hero = () => {
+    const [currentHero, setCurrentHero] = useState(hero1);
+    const heroImages = [hero, hero2, hero3, hero4, hero5, hero6];
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        
+        setCurrentHero(prevHero =>
+          heroImages[(heroImages.indexOf(prevHero) + 1) % heroImages.length]
+        );
+      }, 5000);
+  
+      return () => clearInterval(interval);
+    }, [heroImages]);
+
+
   return (
       <div className='backg'>
           <div className='hero lg:flex flex  lg:justify-evenly lg:flex-row flex-col h-full items-center '>
