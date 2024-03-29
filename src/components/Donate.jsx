@@ -5,8 +5,8 @@ const Donate = () => {
       <div>
           <div className='donatebg p-10 flex items-center lg:flex-row flex-col  justify-center'>
               <div className='border lg:w-[50%]'>
-                  <h1 className='lg:text-4xl font-bold font-poppins  '> Support Our Cause By Donating Now! </h1>
-                  <p className='font-poppins lg:text-lg text-sm'>Help us make a difference by making a donation today. Every contribution, no matter how small, can have a big impact on those in need.</p>
+                  <h1 className='lg:text-4xl font-bold font-poppins p-2  '> Support Our Cause By Donating Now! </h1>
+                  <p className='font-poppins lg:text-lg text-sm p-2'>Help us make a difference by making a donation today. Every contribution, no matter how small, can have a big impact on those in need.</p>
 
               </div>
               <div>
@@ -46,7 +46,7 @@ const Donate = () => {
                       </div>
                       
 
-                     <button type='submit btndonate'>Donate Now</button>
+                     <button type='submit ' className='btndonate text-center rounded-md p-2 text-black font-poppins text-lg font-medium'>Donate Now</button>
                  
                 </form>
                  
