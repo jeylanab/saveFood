@@ -5,6 +5,7 @@ import Service from "./components/Service";
 import Donate from "./components/Donate";
 
 
+
 const App = () => (
   <div>
     <Navbar className='  w-full overflow-hidden'/>
