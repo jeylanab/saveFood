@@ -86,11 +86,16 @@
   transition: all 0.5s ease;
 
 }
+.donatebg2{
+  background-color: orange;
+  color: rgb(220, 220, 220);
+}
 .donatebg{
-  background-color: rgb(23, 23, 23);
+  background-color: rgb(82, 108, 11);
   color: rgb(220, 220, 220);
 }
 .btndonate {
   background-color: orange;
 
 }
+
