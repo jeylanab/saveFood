@@ -1,5 +1,6 @@
 import React from 'react'
 
+// donating form component
 const Donate = () => {
   return (
       <div>
@@ -21,13 +22,13 @@ const Donate = () => {
                       <label htmlFor="amount">Amount:</label>
                       <div>
                           
-                          <input type="number" className='lg:w-[100px] m-2 primeColor' />
+                          <input type="number" className='lg:w-auto m-2 primeColor  font-poppins text-center font-semibold' />
                          
                       </div>
                       <label htmlFor="type">Type:</label>
                       <div>
                           
-                            <input type="type" className='lg:w-[100px] m-2 font-poppins text-center font-semibold' />
+                            <input type="type" className='lg:w-auto m-2 primeColor  font-poppins text-center font-semibold' />
                       </div>
                       
                       <label htmlFor="name">Name</label>

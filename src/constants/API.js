@@ -20,9 +20,13 @@ export const socialNetworks = [
         title: 'discord',
         name: 'Discord',
         link: ''
+    },
+    {
+        id: 4,
+        title: 'X',
+        name: 'X',
+        link: ''
+
     }
-
-
-
 
 ]
